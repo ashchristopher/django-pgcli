@@ -15,7 +15,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
 requirements = [
-    # TODO: put package requirements here
+    'pgcli',
 ]
 
 test_requirements = [
@@ -33,13 +33,13 @@ setup(
     packages=[
         'django-pgcli',
     ],
-    package_dir={'django-pgcli':
-                 'django-pgcli'},
+    package_dir={
+        'django-pgcli': 'django_pgcli'},
     include_package_data=True,
     install_requires=requirements,
     license="BSD",
     zip_safe=False,
-    keywords='django-pgcli',
+    keywords='django pgcli postgres database',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',

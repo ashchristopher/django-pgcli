@@ -1,19 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-test_django-pgcli
-----------------------------------
-
-Tests for `django-pgcli` module.
-"""
-
 import unittest
 
-from django-pgcli import django-pgcli
+from django_pgcli import *
 
 
-class TestDjango-pgcli(unittest.TestCase):
+class RuntimeTestCase(unittest.TestCase):
 
     def setUp(self):
         pass
