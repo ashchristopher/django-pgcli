@@ -19,7 +19,8 @@ requirements = [
 ]
 
 test_requirements = [
-    # TODO: put package test requirements here
+    'Django>=1.4'
+    'pgcli',
 ]
 
 setup(

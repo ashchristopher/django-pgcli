@@ -3,8 +3,6 @@
 
 import unittest
 
-from django_pgcli import *
-
 
 class RuntimeTestCase(unittest.TestCase):
 
