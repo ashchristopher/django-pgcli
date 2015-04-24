@@ -16,11 +16,12 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'pgcli',
+    'Django>=1.4',
 ]
 
 test_requirements = [
-    'Django>=1.4'
     'pgcli',
+    'Django>=1.4',
 ]
 
 setup(
@@ -32,10 +33,8 @@ setup(
     author_email='ash.christopher@gmail.com',
     url='https://github.com/ashchristopher/django-pgcli',
     packages=[
-        'django-pgcli',
+        'django_pgcli',
     ],
-    package_dir={
-        'django-pgcli': 'django_pgcli'},
     include_package_data=True,
     install_requires=requirements,
     license="BSD",
