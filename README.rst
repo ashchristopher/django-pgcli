@@ -12,7 +12,6 @@ django-pgcli
 Database runtime for Django that replaces psql with pgcli.
 
 * Free software: BSD license
-* Documentation: https://django-pgcli.readthedocs.org.
 
 Features
 --------
