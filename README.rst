@@ -9,11 +9,24 @@ django-pgcli
         :target: https://pypi.python.org/pypi/django-pgcli
 
 
-Database runtime for Django that replaces psql with pgcli.
+Alternate database runtime for Django that replaces psql with pgcli.
 
 * Free software: BSD license
 
-Features
---------
+Installation
+------------
 
-* TODO
+Installation is as simple as::
+
+    $ pip install django-pgcli
+
+Usage
+-----
+
+Add ``django_pgsql`` to your ``INSTALLED_APPS``
+
+
+    INSTALLED_APPS = [
+        ...,
+        'django_pgsql',
+    ]
