@@ -21,11 +21,11 @@ Installation is as simple as::
 
     $ pip install django-pgcli
 
-Add ``django_pgsql`` to your ``INSTALLED_APPS`` setting.
+Add ``django_pgcli`` to your ``INSTALLED_APPS`` setting.
 
     INSTALLED_APPS = [
         ...,
-        'django_pgsql',
+        'django_pgcli',
     ]
 
 Usage
