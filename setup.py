@@ -26,7 +26,7 @@ test_requirements = [
 
 setup(
     name='django-pgcli',
-    version='0.0.1',
+    version='0.0.2',
     description="Database runtime for Django that replaces psql with pgcli.",
     long_description=readme + '\n\n' + history,
     author="Ash Christopher",
