@@ -16,12 +16,12 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'pgcli',
-    'Django>=1.9,<2.0',
+    'Django>=1.9',
 ]
 
 test_requirements = [
     'pgcli',
-    'Django>=1.9,<2.0',
+    'Django>=1.9',
 ]
 
 setup(
