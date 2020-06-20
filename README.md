@@ -8,7 +8,7 @@ Replaces your existing *psql* cli for Postgres with *pgcli* which provides enhan
 
 To install the package:
 
-    $ pip install django-pgcli
+    `pip install django-pgcli`
 
 Add `django_pgcli` to your `INSTALLED_APPS` setting in your settings.py file.
 
