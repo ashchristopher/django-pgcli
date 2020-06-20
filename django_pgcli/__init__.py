@@ -2,7 +2,7 @@
 
 __author__ = 'Ash Christopher'
 __email__ = 'ash.christopher@gmail.com'
-__version__ = '0.0.3'
+__version__ = '1.0.0'
 
 
 from django.db.backends.postgresql import base

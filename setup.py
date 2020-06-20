@@ -15,20 +15,23 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
 requirements = [
+    'psycopg2',
     'pgcli',
-    'Django>=1.9,<2.0',
+    'Django>=2.2',
 ]
 
 test_requirements = [
+    'psycopg2'.
     'pgcli',
-    'Django>=1.9,<2.0',
+    'Django>=2.2',
 ]
 
 setup(
     name='django-pgcli',
-    version='0.0.3',
+    version='1.0.0',
     description="Database runtime for Django that replaces psql with pgcli.",
     long_description=readme + '\n\n' + history,
+    long_description_content_type="text/markdown",
     author="Ash Christopher",
     author_email='ash.christopher@gmail.com',
     url='https://github.com/ashchristopher/django-pgcli',
@@ -44,6 +47,11 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
+        'Natural Language :: English',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ],
     test_suite='tests',
     tests_require=test_requirements
