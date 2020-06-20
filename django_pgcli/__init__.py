@@ -9,11 +9,11 @@ from django.db.backends.postgresql import base
 from django.db.backends.postgresql.client import DatabaseClient
 
 
-class pgcliDatabaseClient(DatabaseClient):
+class PgCLIDatabaseClient(DatabaseClient):
     executable_name = 'pgcli'
     
     def runshell(self):
-        pgcliDatabaseClient.runshell_db(self.connection.get_connection_params())
+        PgCLIDatabaseClient.runshell_db(self.connection.get_connection_params())
 
 base.DatabaseWrapper.__old_database_client_class = base.DatabaseClient
-base.DatabaseWrapper.client_class = pgcliDatabaseClient
+base.DatabaseWrapper.client_class = PgCLIDatabaseClient

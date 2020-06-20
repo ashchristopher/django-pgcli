@@ -63,6 +63,7 @@ release: dist
 dist: clean
 	python setup.py sdist bdist_wheel
 	ls -l dist
+	twine check dist/*
 
 install: clean
 	python setup.py install
