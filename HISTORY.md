@@ -1,5 +1,9 @@
 # History
 
+## 1.0.1 (2020-06-21)
+
+* Rebuild wheel
+
 ## 1.0.0 (2020-06-20)
 
 * Upgrades to support Django LTS and above
