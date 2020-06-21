@@ -12,7 +12,7 @@ with open('README.md') as readme_file:
     readme = readme_file.read()
 
 with open('HISTORY.md') as history_file:
-    history = history_file.read().replace('.. :changelog:', '')
+    history = history_file.read()
 
 requirements = [
     'psycopg2',
@@ -30,7 +30,7 @@ setup(
     name='django-pgcli',
     version='1.0.0',
     description="Database runtime for Django that replaces psql with pgcli.",
-    long_description=readme + '\n\n' + history,
+    long_description='\n' + readme + '\n\n' + history,
     long_description_content_type="text/markdown",
     author="Ash Christopher",
     author_email='ash.christopher@gmail.com',

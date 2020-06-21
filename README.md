@@ -15,6 +15,7 @@ Add `django_pgcli` to your `INSTALLED_APPS` setting in your settings.py file.
     INSTALLED_APPS = [
         ...,
         'django_pgcli',
+        
     ]
 
 ## Usage
